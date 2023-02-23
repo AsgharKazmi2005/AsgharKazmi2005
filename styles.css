@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Open Sans, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+.nav {
+  width: 100%;
+  height: 60px;
+  box-shadow: 0px 2px 1px grey;
+  display: block;
+  position: fixed;
+  z-index: 1;
+}
+
+.navitem {
+  color: black;
+  text-decoration: none;
+  float: right;
+  padding: 20px;
+  font-weight: 550;
+}
+.finalNavItem {
+  padding-right: 300px;
+}
+.space {
+  display: inline-block;
+  height: 36px;
+}
+
+.active {
+  color: green;
+}
+
+.gradient {
+  display: block;
+  background-image: linear-gradient(rgb(10, 163, 16), rgb(162, 255, 138));
+  width: 100%;
+  height: 500px;
+}
+
+.title {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.topText {
+  padding-top: 120px;
+}
+
+.bottomText {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+.buttonCont {
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  color: green;
+  padding-top: 40px;
+}
+
+.bottomButton {
+  background-color: white;
+  padding: 0.3em 1em;
+  border-radius: 60px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
